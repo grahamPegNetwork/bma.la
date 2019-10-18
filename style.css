@@ -2097,6 +2097,7 @@ a.uk-slidenav {
     align-items: center; }
     .pr__footer .columns .pr__social,
     .pr__footer .columns .pr__copyrights {
+        margin:auto;
       -webkit-box-ordinal-group: 0;
       -ms-flex-order: -1;
       order: -1; }
