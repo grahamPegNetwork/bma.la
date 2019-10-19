@@ -127,8 +127,9 @@ jQuery(document).ready(function ($) {
                      $(form).find('input[type="email"]').val('');
                      $(form).find('select').val('');
                      $(form).find('textarea').val('');
+                 }).then(function(){
+                    window.location.replace("/");
                  });
-                 window.location.replace("/");
                  return false;
              }
          });
