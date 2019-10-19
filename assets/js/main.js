@@ -128,6 +128,7 @@ jQuery(document).ready(function ($) {
                      $(form).find('select').val('');
                      $(form).find('textarea').val('');
                  });
+                 window.location.replace("/");
                  return false;
              }
          });
